@@ -4,8 +4,11 @@ RUN apt-get update && apt-get install -y \
     libcurl4-openssl-dev \
     libssl-dev \
     libxml2-dev \
+<<<<<<< HEAD
     libsodium-dev \
     pkg-config \
+=======
+>>>>>>> 6a9581241083486741e6607d89a1e414e9724067
     make \
     g++ \
     && rm -rf /var/lib/apt/lists/*
