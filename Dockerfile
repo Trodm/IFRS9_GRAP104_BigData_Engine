@@ -1,6 +1,14 @@
 FROM rocker/r-ver:4.3.3
 
-RUN apt-get update && apt-get install -y echo     libcurl4-openssl-dev echo     libssl-dev echo     libxml2-dev echo     libsodium-dev echo     pkg-config echo     make echo     g++ echo     && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y \
+    libcurl4-openssl-dev \
+    libssl-dev \
+    libxml2-dev \
+    libsodium-dev \
+    pkg-config \
+    make \
+    g++ \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN R -e "install.packages(c('plumber','jsonlite','dplyr'), repos='https://cloud.r-project.org')"
 
