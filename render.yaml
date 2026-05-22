@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ifrs9-grap104-bigdata-engine
+    env: docker
+    plan: starter
+    healthCheckPath: /health

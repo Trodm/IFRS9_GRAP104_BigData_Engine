@@ -1,0 +1,7 @@
+instrument_id,entity,product_type,sector,province,days_past_due,current_rating,origination_rating,ead,lgd,pd_12m,pd_lifetime,eir,remaining_years,measurement_category
+FI001,Municipality A,Consumer receivable,Households,Gauteng,0,2,2,50000,0.35,0.020,0.070,0.12,3,amortised_cost
+FI002,Municipality A,Staff loan,Employees,Gauteng,18,3,2,120000,0.40,0.040,0.150,0.11,4,amortised_cost
+FI003,Public Entity B,Service debtor,Commercial,KZN,45,5,3,85000,0.50,0.090,0.350,0.13,5,amortised_cost
+FI004,Public Entity B,Long outstanding debtor,Commercial,Eastern Cape,95,7,4,200000,0.65,0.300,0.750,0.15,2,amortised_cost
+FI005,Municipality C,Investment asset,Financial institutions,Western Cape,0,1,1,400000,0.20,0.010,0.030,0.10,3,fvoci
+FI006,Municipality C,Fair value instrument,Financial institutions,Western Cape,0,1,1,300000,0.15,0.008,0.020,0.09,3,fvsd

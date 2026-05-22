@@ -1,0 +1,4 @@
+scenario,weight,pd_multiplier,lgd_multiplier
+Base,0.60,1.00,1.00
+Optimistic,0.20,0.80,0.90
+Downturn,0.20,1.50,1.20
