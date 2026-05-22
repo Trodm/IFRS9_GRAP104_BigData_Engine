@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     g++ \
     && rm -rf /var/lib/apt/lists/*
 
-RUN R -e "install.packages(c('plumber','jsonlite','dplyr','duckdb','arrow'), repos='https://cloud.r-project.org')"
+RUN R -e "install.packages(c('plumber','jsonlite','dplyr'), repos='https://cloud.r-project.org')"
 
 WORKDIR /app
 
